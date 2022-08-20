@@ -11,7 +11,7 @@
 		A9F7319372D7AA4E67797EDC /* Pods_DcardAPI_DcardAPIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857C101D31AB480D29793854 /* Pods_DcardAPI_DcardAPIUITests.framework */; };
 		F2BE063B28B116160088C8E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE063A28B116160088C8E1 /* AppDelegate.swift */; };
 		F2BE063D28B116160088C8E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE063C28B116160088C8E1 /* SceneDelegate.swift */; };
-		F2BE063F28B116160088C8E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE063E28B116160088C8E1 /* ViewController.swift */; };
+		F2BE063F28B116160088C8E1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE063E28B116160088C8E1 /* HomeViewController.swift */; };
 		F2BE064228B116160088C8E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BE064028B116160088C8E1 /* Main.storyboard */; };
 		F2BE064528B116160088C8E1 /* DcardAPI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2BE064328B116160088C8E1 /* DcardAPI.xcdatamodeld */; };
 		F2BE064728B116180088C8E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BE064628B116180088C8E1 /* Assets.xcassets */; };
@@ -19,6 +19,7 @@
 		F2BE065528B116180088C8E1 /* DcardAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE065428B116180088C8E1 /* DcardAPITests.swift */; };
 		F2BE065F28B116180088C8E1 /* DcardAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE065E28B116180088C8E1 /* DcardAPIUITests.swift */; };
 		F2BE066128B116180088C8E1 /* DcardAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE066028B116180088C8E1 /* DcardAPIUITestsLaunchTests.swift */; };
+		F2BE067428B13F7A0088C8E1 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE067328B13F7A0088C8E1 /* CategoryViewController.swift */; };
 		FF03A306899217BC3AAE49F2 /* Pods_DcardAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670417FB379BE2F79AA3AA5B /* Pods_DcardAPITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +53,7 @@
 		F2BE063728B116160088C8E1 /* DcardAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DcardAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BE063A28B116160088C8E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2BE063C28B116160088C8E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2BE063E28B116160088C8E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2BE063E28B116160088C8E1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F2BE064128B116160088C8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2BE064428B116160088C8E1 /* DcardAPI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DcardAPI.xcdatamodel; sourceTree = "<group>"; };
 		F2BE064628B116180088C8E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 		F2BE065A28B116180088C8E1 /* DcardAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DcardAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BE065E28B116180088C8E1 /* DcardAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DcardAPIUITests.swift; sourceTree = "<group>"; };
 		F2BE066028B116180088C8E1 /* DcardAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DcardAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2BE067328B13F7A0088C8E1 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +151,6 @@
 				F2BE066D28B12DC50088C8E1 /* Models */,
 				F2BE063A28B116160088C8E1 /* AppDelegate.swift */,
 				F2BE063C28B116160088C8E1 /* SceneDelegate.swift */,
-				F2BE063E28B116160088C8E1 /* ViewController.swift */,
 				F2BE064028B116160088C8E1 /* Main.storyboard */,
 				F2BE064628B116180088C8E1 /* Assets.xcassets */,
 				F2BE064828B116180088C8E1 /* LaunchScreen.storyboard */,
@@ -200,6 +201,8 @@
 		F2BE067028B12DDC0088C8E1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F2BE063E28B116160088C8E1 /* HomeViewController.swift */,
+				F2BE067328B13F7A0088C8E1 /* CategoryViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -457,7 +460,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2BE063F28B116160088C8E1 /* ViewController.swift in Sources */,
+				F2BE067428B13F7A0088C8E1 /* CategoryViewController.swift in Sources */,
+				F2BE063F28B116160088C8E1 /* HomeViewController.swift in Sources */,
 				F2BE064528B116160088C8E1 /* DcardAPI.xcdatamodeld in Sources */,
 				F2BE063B28B116160088C8E1 /* AppDelegate.swift in Sources */,
 				F2BE063D28B116160088C8E1 /* SceneDelegate.swift in Sources */,
