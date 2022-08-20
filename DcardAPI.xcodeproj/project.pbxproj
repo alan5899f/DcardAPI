@@ -113,7 +113,6 @@
 				D2C3E471B880C588FB1393FE /* Pods-DcardAPITests.debug.xcconfig */,
 				B289DB41C9130DD5C84839AD /* Pods-DcardAPITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,6 +141,12 @@
 		F2BE063928B116160088C8E1 /* DcardAPI */ = {
 			isa = PBXGroup;
 			children = (
+				F2BE067228B12E990088C8E1 /* Resources */,
+				F2BE067128B12DE20088C8E1 /* Managers */,
+				F2BE067028B12DDC0088C8E1 /* Controllers */,
+				F2BE066F28B12DD50088C8E1 /* ViewModels */,
+				F2BE066E28B12DD00088C8E1 /* Views */,
+				F2BE066D28B12DC50088C8E1 /* Models */,
 				F2BE063A28B116160088C8E1 /* AppDelegate.swift */,
 				F2BE063C28B116160088C8E1 /* SceneDelegate.swift */,
 				F2BE063E28B116160088C8E1 /* ViewController.swift */,
@@ -169,6 +174,48 @@
 				F2BE066028B116180088C8E1 /* DcardAPIUITestsLaunchTests.swift */,
 			);
 			path = DcardAPIUITests;
+			sourceTree = "<group>";
+		};
+		F2BE066D28B12DC50088C8E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2BE066E28B12DD00088C8E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2BE066F28B12DD50088C8E1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F2BE067028B12DDC0088C8E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F2BE067128B12DE20088C8E1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F2BE067228B12E990088C8E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
