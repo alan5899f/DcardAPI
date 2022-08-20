@@ -1,0 +1,6 @@
+framework module Pods_DcardAPI {
+  umbrella header "Pods-DcardAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

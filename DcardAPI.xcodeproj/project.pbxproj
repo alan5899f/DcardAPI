@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AF5CC0353D5D2109D32F32B /* Pods_DcardAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3608D1E9DD9FDCC7C987F3 /* Pods_DcardAPI.framework */; };
+		A9F7319372D7AA4E67797EDC /* Pods_DcardAPI_DcardAPIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857C101D31AB480D29793854 /* Pods_DcardAPI_DcardAPIUITests.framework */; };
 		F2BE063B28B116160088C8E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE063A28B116160088C8E1 /* AppDelegate.swift */; };
 		F2BE063D28B116160088C8E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE063C28B116160088C8E1 /* SceneDelegate.swift */; };
 		F2BE063F28B116160088C8E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE063E28B116160088C8E1 /* ViewController.swift */; };
@@ -17,6 +19,7 @@
 		F2BE065528B116180088C8E1 /* DcardAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE065428B116180088C8E1 /* DcardAPITests.swift */; };
 		F2BE065F28B116180088C8E1 /* DcardAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE065E28B116180088C8E1 /* DcardAPIUITests.swift */; };
 		F2BE066128B116180088C8E1 /* DcardAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BE066028B116180088C8E1 /* DcardAPIUITestsLaunchTests.swift */; };
+		FF03A306899217BC3AAE49F2 /* Pods_DcardAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670417FB379BE2F79AA3AA5B /* Pods_DcardAPITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0873B7BDCCEE95022A080441 /* Pods-DcardAPI-DcardAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DcardAPI-DcardAPIUITests.release.xcconfig"; path = "Target Support Files/Pods-DcardAPI-DcardAPIUITests/Pods-DcardAPI-DcardAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D3608D1E9DD9FDCC7C987F3 /* Pods_DcardAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DcardAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4250FD0874F04FF7AE00339D /* Pods-DcardAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DcardAPI.release.xcconfig"; path = "Target Support Files/Pods-DcardAPI/Pods-DcardAPI.release.xcconfig"; sourceTree = "<group>"; };
+		670417FB379BE2F79AA3AA5B /* Pods_DcardAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DcardAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D2DBE8216C2D0A8E31079F /* Pods-DcardAPI-DcardAPIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DcardAPI-DcardAPIUITests.debug.xcconfig"; path = "Target Support Files/Pods-DcardAPI-DcardAPIUITests/Pods-DcardAPI-DcardAPIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78B9BF032E00D8118D979D50 /* Pods-DcardAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DcardAPI.debug.xcconfig"; path = "Target Support Files/Pods-DcardAPI/Pods-DcardAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		857C101D31AB480D29793854 /* Pods_DcardAPI_DcardAPIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DcardAPI_DcardAPIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B289DB41C9130DD5C84839AD /* Pods-DcardAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DcardAPITests.release.xcconfig"; path = "Target Support Files/Pods-DcardAPITests/Pods-DcardAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2C3E471B880C588FB1393FE /* Pods-DcardAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DcardAPITests.debug.xcconfig"; path = "Target Support Files/Pods-DcardAPITests/Pods-DcardAPITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2BE063728B116160088C8E1 /* DcardAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DcardAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BE063A28B116160088C8E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2BE063C28B116160088C8E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF5CC0353D5D2109D32F32B /* Pods_DcardAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF03A306899217BC3AAE49F2 /* Pods_DcardAPITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F7319372D7AA4E67797EDC /* Pods_DcardAPI_DcardAPIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F6EB1C100AA2E6E70F534A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D3608D1E9DD9FDCC7C987F3 /* Pods_DcardAPI.framework */,
+				857C101D31AB480D29793854 /* Pods_DcardAPI_DcardAPIUITests.framework */,
+				670417FB379BE2F79AA3AA5B /* Pods_DcardAPITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F83226DBBFE521472295ACE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78B9BF032E00D8118D979D50 /* Pods-DcardAPI.debug.xcconfig */,
+				4250FD0874F04FF7AE00339D /* Pods-DcardAPI.release.xcconfig */,
+				71D2DBE8216C2D0A8E31079F /* Pods-DcardAPI-DcardAPIUITests.debug.xcconfig */,
+				0873B7BDCCEE95022A080441 /* Pods-DcardAPI-DcardAPIUITests.release.xcconfig */,
+				D2C3E471B880C588FB1393FE /* Pods-DcardAPITests.debug.xcconfig */,
+				B289DB41C9130DD5C84839AD /* Pods-DcardAPITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F2BE062E28B116160088C8E1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				F2BE065328B116180088C8E1 /* DcardAPITests */,
 				F2BE065D28B116180088C8E1 /* DcardAPIUITests */,
 				F2BE063828B116160088C8E1 /* Products */,
+				9F83226DBBFE521472295ACE /* Pods */,
+				4F6EB1C100AA2E6E70F534A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2BE066428B116180088C8E1 /* Build configuration list for PBXNativeTarget "DcardAPI" */;
 			buildPhases = (
+				68B7753DE425E0E82503C19E /* [CP] Check Pods Manifest.lock */,
 				F2BE063328B116160088C8E1 /* Sources */,
 				F2BE063428B116160088C8E1 /* Frameworks */,
 				F2BE063528B116160088C8E1 /* Resources */,
+				49F655B5E7B7C5455BB9C446 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2BE066728B116180088C8E1 /* Build configuration list for PBXNativeTarget "DcardAPITests" */;
 			buildPhases = (
+				F107F40BC86F040F2021C6B4 /* [CP] Check Pods Manifest.lock */,
 				F2BE064C28B116180088C8E1 /* Sources */,
 				F2BE064D28B116180088C8E1 /* Frameworks */,
 				F2BE064E28B116180088C8E1 /* Resources */,
@@ -172,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2BE066A28B116180088C8E1 /* Build configuration list for PBXNativeTarget "DcardAPIUITests" */;
 			buildPhases = (
+				1B86F4A315D60B57CF5CC2D5 /* [CP] Check Pods Manifest.lock */,
 				F2BE065628B116180088C8E1 /* Sources */,
 				F2BE065728B116180088C8E1 /* Frameworks */,
 				F2BE065828B116180088C8E1 /* Resources */,
+				8B07D9292C6769A0DDCDD31F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,7 +256,7 @@
 				};
 			};
 			buildConfigurationList = F2BE063228B116160088C8E1 /* Build configuration list for PBXProject "DcardAPI" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -255,6 +301,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B86F4A315D60B57CF5CC2D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DcardAPI-DcardAPIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49F655B5E7B7C5455BB9C446 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DcardAPI/Pods-DcardAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DcardAPI/Pods-DcardAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DcardAPI/Pods-DcardAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68B7753DE425E0E82503C19E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DcardAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B07D9292C6769A0DDCDD31F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DcardAPI-DcardAPIUITests/Pods-DcardAPI-DcardAPIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DcardAPI-DcardAPIUITests/Pods-DcardAPI-DcardAPIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DcardAPI-DcardAPIUITests/Pods-DcardAPI-DcardAPIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F107F40BC86F040F2021C6B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DcardAPITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2BE063328B116160088C8E1 /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		F2BE066528B116180088C8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B9BF032E00D8118D979D50 /* Pods-DcardAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +614,7 @@
 		};
 		F2BE066628B116180088C8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4250FD0874F04FF7AE00339D /* Pods-DcardAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +643,7 @@
 		};
 		F2BE066828B116180088C8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C3E471B880C588FB1393FE /* Pods-DcardAPITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +664,7 @@
 		};
 		F2BE066928B116180088C8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B289DB41C9130DD5C84839AD /* Pods-DcardAPITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +685,7 @@
 		};
 		F2BE066B28B116180088C8E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D2DBE8216C2D0A8E31079F /* Pods-DcardAPI-DcardAPIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +704,7 @@
 		};
 		F2BE066C28B116180088C8E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0873B7BDCCEE95022A080441 /* Pods-DcardAPI-DcardAPIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
